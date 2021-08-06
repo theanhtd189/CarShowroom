@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<title>Show room Xe Việt</title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <link href="icon.png" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
+    <script src="script.js"></script>
+    <link href="/fonts.googleapis.com/cssa571.css?family=Montserrat:300,400,500,700" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="themes/default/css/flexslider.css">
+    <script type="text/javascript" src="themes/default/js/jquery.flexslider.js"></script>
+    <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<a href="index.html" class="left0"><img id="logo" class="left0" src="icon.png" alt="Logo"></a>
+				<ul class="menu right">
+				<li><a href="index.html">Trang chủ</a></li>
+				<li><a href="#sanpham">Sản phẩm</a></li>
+				<li><a rel="nofollow" href="#dichvu">Dịch vụ</a></li>
+				<li><a rel="nofollow" href="#doitac">Đối tác</a></li>
+				<li><a href="#tintuc">Tin tức</a></li>		
+				<li><a rel="nofollow" href="tel:0123456789">Liên hệ</a></li>
+				<li class="tel"><button class="log"><a href="dangnhap.html">Đăng nhập / Đăng ký</a></button></li>
+				</ul>
+				<a rel="nofollow" class="button-menu mobile" href="javascript:void(0);" onclick="$('.menu').slideToggle();">☰</a>
+			</div>
+		</header>
+		<div class="clr"></div>
+		<section id="page-product">
+<div class="info" style="top: 40%;">
+<button class="btn left btn-active" id="btn-chitiet"><a href="#" ><i class="fas fa-car-side"></i> Thông Tin Sản Phẩm</a></button>
+<button class="btn left" id="btn-mota"><a href="#" ><i class="fas fa-user-alt"></i> Thông Tin Người Nhận</a></button>
+<button class="btn left" id="btn-dathang"><i class="fas fa-people-carry"></i> Xác Nhận Đặt Hàng</button>
+</div>
+<div class="clr"></div>
+
+<div class="cat">
+    <h2 class="tt"></h2>
+	<div id="ct" class="container" style="padding-bottom: 0;">
+			<article class="description" style="margin-right: -20px">
+				<div class="description_before"></div>				
+				<h2 class="product-title" id="chitiet">Thanh Toán</h2>	
+
+				<div id="chitietxe">
+					<table align="center" border="1" cellpadding="0" cellspacing="0" style="width:80%;" summary="Thông Số Kỹ Thuật" width="211">
+						<caption>
+						<h2><i class="fab fa-product-hunt"></i> Thông tin sản phẩm</h2>
+						</caption>
+						<tbody>
+							<tr height="20">
+								<td height="20"><strong>Tên sản phẩm</strong></td>
+								<td>Vinfast vf321</td>
+							</tr>
+							<tr height="20">
+								<td height="20"><strong>Hãng</strong></td>
+								<td>Vinfast</td>
+							</tr>
+							<tr height="20">
+								<td height="20" width="121"><strong>Số lượng</strong></td>
+								<td width="90">1 Chiếc</td>
+							</tr>
+							<tr height="20">
+								<td height="20"><strong>Giá bán</strong></td>
+								<td>400 000 000 VND</td>
+							</tr>
+							<tr height="20">
+								<td height="20"><strong>Số chỗ</strong></td>
+								<td>Vinfast</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div id="mota" style="padding-top:0">
+					<div>
+						<h2><i class="far fa-address-card"></i> Thông tin người nhận hàng </h2>
+						<p>Họ và tên: <strong>Thế ANh</strong></p>
+						<p>Địa chỉ nhận hàng: <strong>Hà nội</strong></p>
+						<p>Số điện thoại: <strong>0123456789</strong></p>
+						<p>Email: <strong>theanh#@gmail.com</strong></p>
+						<a href="#"><i class="far fa-edit"></i> Sửa </a>
+				
+					</div>
+					
+				</div>
+				<div id="xacnhan">
+					<div id="btn-xacnhan">
+						<h2><i class="fas fa-crosshairs"></i> Xác nhận đặt hàng</h2>
+						<p> Bạn xác nhận đặt xe Vinfast abc với giá 400 000 000 VND ?</p>
+						<p><button id="buy"><i class="far fa-thumbs-up"></i> Xác Nhận Mua Hàng</button>
+						<button id="back"><i class="far fa-thumbs-down"></i> Quay Về Trang Chủ</button></p>
+					</div>
+					<div id="muathanhcong">
+						<h2><i class="fas fa-check-circle" id="success-icon"></i> Đặt hàng thành công</h2>
+						<p><i class="fas fa-truck"></i> Đơn hàng của bạn đã được thiết lập và sẽ sớm được xác nhận </p>
+					</div>
+				</div>
+				
+		</article>
+	</div>
+	<div class="clr"></div>	
+			<div class="reserve"><div class="container">
+				<h3>Phương thức thanh toán</h3>
+				<p>Vui lòng chọn một trong các phương thức thanh toán dưới đây</p>
+				<div class="method">
+					<div class="item"><img src="./images/phuongthucthanhtoan/040-visa.png" alt="" srcset=""></div>
+					<div class="item"><img src="./images/phuongthucthanhtoan/006-bitcoin.png" alt="" srcset=""></div>
+					<div class="item"><img src="./images/phuongthucthanhtoan/022-jcb.png" alt="" srcset=""></div>
+					<div class="item"><img src="./images/phuongthucthanhtoan/025-mastercard.png" alt="" srcset=""></div>
+					<div class="item"><img src="./images/phuongthucthanhtoan/030-paypal.png" alt="" srcset=""></div>
+					<div class="item"><img src="./images/phuongthucthanhtoan/044-western union.png" alt="" srcset=""></div>
+					<div class="item"><img src="./images/phuongthucthanhtoan/019-google wallet.png" alt="" srcset=""></div>
+					<div class="item"><img src="https://cdn.tgdd.vn/2020/03/GameApp/image(15)-200x200-1.png" alt="" srcset=""></div>		
+					<div class="item"><img src="./images/phuongthucthanhtoan/030-paypal.png" alt="" srcset=""></div>
+					<div class="item"><img src="./images/phuongthucthanhtoan/044-western union.png" alt="" srcset=""></div>
+					<div class="item"><img src="./images/phuongthucthanhtoan/019-google wallet.png" alt="" srcset=""></div>
+					<div class="item"><img src="https://cdn.tgdd.vn/2020/03/GameApp/image(15)-200x200-1.png" alt="" srcset=""></div>			
+				</div>
+			</div></div>
+		</section>
+
+		<div class="clr"></div>
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col col-20">
+						<h4>Liên hệ</h4>
+						<ul>
+							<li><a href="tel:0123456789">0123 456 789</a></li>
+							<li><a href="mailto:xevietshowroom@gmail.com">xevietshowroom@gmail.com</a></li>
+							<li>Mỹ Đình, Nam Từ Liêm, Hà Nội</li>
+							
+						</ul>
+					</div>
+					<div class="col col-20 desktop">
+						<h4>Hỗ trợ</h4>
+						<ul>
+							<li><a rel="nofollow" href="#">Câu hỏi thường gặp</a></li>
+							<li><a href="#">CSKH</a></li>
+							<li><a rel="nofollow" href="#">Hệ thống phân phối</a></li>
+						</ul>
+					</div>
+					<div class="col col-20">
+						<h4>Pháp lý</h4>
+						<ul>
+							<li><a href="#">Chính sách</a></li>
+							<li><a href="#">Điều khoản sử dụng</a></li>
+							<li><a href="#">Miễn trừ trách nhiệm</a></li>
+							
+						</ul>
+					</div>
+					<div class="col col-20">
+						<h4>Dịch vụ bán hàng</h4>
+						<ul>
+							<li><a rel="nofollow" href="#">Bảo hành</a></li>
+							<li><a rel="nofollow" href="#">Bảo dưỡng</a></li>
+							<li><a rel="nofollow" href="#">Phụ kiện</a></li>
+						</ul>
+					</div>
+					
+					<div class="col col-20">
+						<nav class="social">
+							<a rel="nofollow" target="_blank" href="#" class="icon-social">
+							  <svg aria-hidden="true" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-9" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512">
+								<path fill="currentColor" d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229"></path>
+							  </svg>
+							</a>
+							<a rel="nofollow" target="_blank" href="#" class="icon-social">
+							  <svg aria-hidden="true" data-prefix="fab" data-icon="youtube" class="svg-inline--fa fa-youtube fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+								<path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+							  </svg>
+							</a>
+							<a rel="nofollow" target="_blank" href="#" class="icon-social">
+							  <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+								<path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+							  </svg>
+							</a>
+							<a rel="nofollow" target="_blank" href="#" class="icon-social">
+							  <svg aria-hidden="true" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+								<path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+							  </svg>
+							</a>
+						  </nav>
+						<p>XEVIET SHOWROOM © Copyright 2021. All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+			
+		</footer>
+<script type="text/javascript">
+	$(document).ready(function() {
+		
+
+		$("#btn-mota").click(function(){
+			$("#btn-mota").addClass("btn-active");
+			$("#btn-chitiet").removeClass("btn-active");
+			$("#btn-dathang").removeClass("btn-active");
+			$("#chitietxe").css("display","none");
+			$("#mota").css('display',"flex");
+			$("#xacnhan").css("display","none");
+		});
+
+
+		$("#btn-chitiet").click(function(){
+			$("#btn-mota").removeClass("btn-active");
+			$("#btn-dathang").removeClass("btn-active");
+			$("#btn-chitiet").addClass("btn-active");
+			$("#chitietxe").css("display","block");
+			$("#mota").css('display',"none");
+			$("#xacnhan").css("display","none");
+		});
+
+		$("#btn-dathang").click(function(){
+			$("#btn-dathang").addClass("btn-active");
+			$("#btn-mota").removeClass("btn-active");
+			$("#btn-chitiet").removeClass("btn-active");
+			$("#chitietxe").css("display","none");
+			$("#mota").css('display',"none");
+			$("#xacnhan").css("display","flex");
+			
+		});
+
+		$("#back").click(function(){
+			window.location.href="index.html";
+		});
+
+		$("#buy").click(function(){
+			$("#btn-xacnhan").css('display',"none");
+			$("#muathanhcong").css('display',"block");
+			setTimeout(()=>{
+				$("#success-icon").addClass("success");
+			},400);
+			
+		});
+	});
+</script>
+<div class="add-cart"><i class="fas fa-check"></i>Thành công</div>
+		    </body>
+
+</html>

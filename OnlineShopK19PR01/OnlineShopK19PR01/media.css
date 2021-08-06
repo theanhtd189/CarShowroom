@@ -1,0 +1,239 @@
+        @media (max-width: 768px) {
+            iframe {
+                max-width: 100%;
+            }
+            #callmobile {
+                position: fixed;
+                bottom: 20px;
+                left: 20px;
+                width: 60px;
+                border-radius: 50%;
+                box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+                display: block;
+            }
+            .hotline-mobile {
+                background: rgba(225, 20, 40, 0.8);
+                position: fixed;
+                width: 100%;
+                bottom: 0;
+                text-align: center;
+                left: 0;
+                z-index: 999;
+                margin: 0 !important;
+                line-height: 45px;
+            }
+            .pc,
+            .desktop {
+                display: none;
+            }
+            .mobile {
+                display: block;
+            }
+            .container {
+                width: calc(100% - 30px);
+                position: relative;
+                margin: 0 auto;
+            }
+            .col-6,
+            .col-4 {
+                width: 100%;
+            }
+            header .button-menu {
+                float: right;
+                line-height: 70px;
+                font-size: 30px;
+                color: #fff;
+            }
+            header .menu {
+                display: none;
+                position: absolute;
+                width: calc(100% + 50px);
+                margin-left: -25px;
+                top: 70px;
+                background: #f2f1f0;
+                box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+            }
+            header .menu>li {
+                margin: 0;
+                width: 50%;
+                float: left;
+                text-align: center;
+                border-right: 1px solid #fff;
+                border-bottom: 1px solid #fff;
+                margin-right: -1px;
+            }
+            header .menu>li:last-child {
+                margin: 0;
+                width: 100%;
+            }
+            header .menu>li>a {
+                line-height: 30px;
+                color: #000;
+                margin: 10px 0;
+            }
+            header .menu>li:last-child>a {
+                background: #fff;
+                margin: 10px 20px;
+                color: #eb1b2e;
+            }
+            .flex-direction-nav a.flex-prev,
+            .flex-direction-nav a.flex-next {
+                width: 30px;
+                height: 30px;
+            }
+            .home-cars h2,
+            .category-name h1 {
+                font-size: 22px;
+                line-height: 50px;
+                margin-right: 20px;
+            }
+            .home-cars p {
+                float: none;
+                line-height: 50px;
+                font-size: 16px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .car {
+                width: 100%;
+                padding: 20px;
+            }
+            .car img {
+                width: 85%;
+            }
+            .car h3 {
+                font-size: 22px;
+            }
+            .block-title {
+                font-size: 20px;
+                margin: 20px 0;
+            }
+            .big-article h3 {
+                margin: 15px 0;
+                font-size: 20px;
+            }
+            .small-article h3 {
+                font-size: 16px;
+                display: -webkit-box;
+                -webkit-line-clamp: 4;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                text-transform: initial;
+            }
+            .articles {
+                float: left;
+                width: calc(100% + 20px);
+                margin-bottom: 0;
+            }
+            .articles .article {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            footer .col-20 {
+                width: 100%;
+                text-align: center;
+            }
+            footer h4 {
+                margin: 20px 0 10px;
+                font-size: 16px;
+            }
+            footer ul li a {
+                font-size: 15px;
+            }
+            #page-article h1,
+            #page-blog h1 {
+                margin: 20px auto;
+            }
+            .blogs .blog h3 {
+                font-size: 16px;
+            }
+            article img {
+                height: auto !important;
+            }
+            .blogs .blog {
+                width: 100%;
+            }
+            #page-contact .vp {
+                padding-top: 100%;
+            }
+            .contact-info {
+                top: auto;
+                right: auto;
+                padding: 10px 20px;
+                width: 100%;
+                position: inherit;
+                box-sizing: border-box;
+            }
+            #page-product .bigimg h1 {
+                bottom: 10px;
+                left: 10px;
+                font-size: 20px;
+            }
+            #page-product .bigimg h1 i {
+                margin-left: 10px;
+                padding-left: 10px;
+                font-size: 18px;
+            }
+            #page-product .options li {
+                display: block;
+                border-right: 0;
+                padding: 5px;
+                border-bottom: 1px solid #ccc;
+            }
+            #page-product .options li h3,
+            #page-product .options li p {
+                font-size: 16px;
+            }
+            #page-product article.description {
+                margin: 10px 0;
+            }
+            #page-product article.description>table {
+                margin: 20px 0;
+            }
+            #page-product article.description table td {
+                width: 100%;
+                display: block;
+                padding: 0;
+            }
+            #page-fee h1 {
+                font-size: 20px;
+                margin: 20px -10px 10px;
+            }
+            #page-fee h1 + .notes {
+                margin: 10px -10px;
+            }
+            .module-slider {
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+                float: left;
+            }
+            .module-slider .flexslider {
+                width: 200%;
+                left: -50%;
+            }
+            #page-product .bigimg {
+                position: relative;
+                float: left;
+                width: 100%;
+                overflow: hidden;
+            }
+            #page-product .bigimg img {
+                float: left;
+                width: 150%;
+                max-width: 150%;
+                margin: 0 -25%;
+            }
+            article h2 {
+                font-size: 18px;
+            }
+            article h3,
+            article h4 {
+                font-size: 16px;
+            }
+            .article-content iframe {
+                max-width: 100%;
+            }
+        }

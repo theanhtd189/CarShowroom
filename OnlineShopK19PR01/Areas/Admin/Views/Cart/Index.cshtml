@@ -1,0 +1,87 @@
+﻿
+@{
+    ViewBag.Title = "Index order";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@model PagedList.IPagedList<Models.Framework.Order>
+@using PagedList.Mvc
+@using Models.DAL
+@using OnlineShopK19PR01.Common
+
+
+@section header{ }
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Danh sách đơn hàng</h6>
+    </div>
+    <div class="card-body">
+        @using (Html.BeginForm("Index", "Cart", FormMethod.Get))
+        {
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-md-4">
+                        <input type="text" value="@ViewBag.SearchString" name="searchString" />
+                    </div>
+                    <div class="col-md-4">
+                        <button type="submit">Tìm Kiếm</button>
+                    </div>
+                </div>
+            </div>
+        }
+
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <td>Người đặt</td>
+                        <th>Địa chỉ</th>
+                        <th>Số điện thoại</th>
+                        <th>Tổng tiền</th>
+                        <th>Trạng thái</th>
+                        <th>Hành động</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        var detail = new OrderDetailDAL();
+
+                    <tr id="row_@item.ID">
+
+                        <td>@item.ID</td>
+                        <td><a href="@Url.Action("Edit","User")/@item.CustomerID">@item.ShipName</a></td>
+                        <td>@item.ShipAddress</td>
+                        <td>@item.ShipMobile</td>
+                        <td>@Format.FormatNumber(decimal.Parse(detail.ViewDetail(item.ID).Price)) VND</td>
+                        @if (item.Status == true)
+                        {
+                            <td>Đã xác nhận</td>
+                        }
+                        else
+                        {
+                            <td>Đang chờ xác nhận</td>
+                        }
+                        <td><a href="@Url.Action("Detail",new { id = item.ID})">Chi tiết</a>
+                        |
+                        @Ajax.ActionLink("Xóa", "Delete", new { @id = item.ID }, new AjaxOptions
+                        {
+                       Confirm = "Bạn muốn xóa bản ghi này không",
+                       OnComplete = "$('#row_ " + item.ID + "').remove()",
+                       HttpMethod = "Delete",
+                       OnSuccess = "location.reload(true)"
+                        })
+
+                        </td>
+
+                    </tr>
+                      }
+                </tbody>
+            </table>
+            @Html.PagedListPager(Model, page => Url.Action("Index", new { page, @searchString = @ViewBag.SearchString }))
+
+        </div>
+    </div>
+</div>
+

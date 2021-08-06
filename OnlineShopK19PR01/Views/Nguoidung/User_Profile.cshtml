@@ -1,0 +1,366 @@
+﻿@{
+    Layout = null;
+}
+@using Models.DAL
+@if (Session["idnguoidung"] == null)
+{
+    <script type="text/javascript">
+   window.location.href = "@Url.Action("","dangnhap")";
+    </script>
+}
+else
+{
+    var s = Session["idnguoidung"];
+    var current_user = new UserDAL().GetById((long)s);
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="~/Assets/Client/user-style.css">
+    <div class="main-content">
+        <!-- Top navbar -->
+        <nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
+            <div class="container-fluid">
+                <!-- Brand -->
+                <a href="@Url.Action("Index","Trangchu")" class="btn btn-info">Quay về trang mua hàng</a>
+                <!-- Form -->
+                <form class="navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto">
+                    <div class="form-group mb-0">
+                        <div class="input-group input-group-alternative">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fas fa-search"></i></span>
+                            </div>
+                            <input class="form-control" placeholder="Search" type="text">
+                        </div>
+                    </div>
+                </form>
+                <!-- User -->
+                <ul class="navbar-nav align-items-center d-none d-md-flex">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link pr-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="media align-items-center">
+                                <span class="avatar avatar-sm rounded-circle">
+                                    <img alt="avatar" src="https://lh3.googleusercontent.com/a-/AOh14Gjz9k019WKC2n_68llZLG8vAUL5fJvvWdKV73G-=s360-p-rw-no">
+                                </span>
+                                <div class="media-body ml-2 d-none d-lg-block">
+                                    <span class="mb-0 text-sm  font-weight-bold">@current_user.Name</span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-right">
+                            <div class=" dropdown-header noti-title">
+                                <h6 class="text-overflow m-0">Welcome!</h6>
+                            </div>
+                            <a href="../examples/profile.html" class="dropdown-item">
+                                <i class="ni ni-single-02"></i>
+                                <span>My profile</span>
+                            </a>
+                            <a href="../examples/profile.html" class="dropdown-item">
+                                <i class="ni ni-settings-gear-65"></i>
+                                <span>Settings</span>
+                            </a>
+                            <a href="../examples/profile.html" class="dropdown-item">
+                                <i class="ni ni-calendar-grid-58"></i>
+                                <span>Activity</span>
+                            </a>
+                            <a href="../examples/profile.html" class="dropdown-item">
+                                <i class="ni ni-support-16"></i>
+                                <span>Support</span>
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#!" class="dropdown-item">
+                                <i class="ni ni-user-run"></i>
+                                <span>Logout</span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Header -->
+        <div class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center" style="min-height: 600px; background-image: url(https://images.unsplash.com/photo-1530484567812-2d5a2d82268c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80); background-size: cover; background-position: center top;">
+            <!-- Mask -->
+            <span class="mask bg-gradient-default opacity-8"></span>
+            <!-- Header container -->
+            <div class="container-fluid d-flex align-items-center">
+                <div class="row">
+                    <div class="col-lg-7 col-md-10">
+                        <!-- <a href="#!" class="btn btn-info">Quay về trang mua hàng</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- right section -->
+        <div class="container-fluid mt--7">
+            <div class="row">
+                <div class="col-xl-4 order-xl-2 mb-5 mb-xl-0">
+                    <div class="card card-profile shadow">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-3 order-lg-2">
+                                <div class="card-profile-image">
+                                    <a href="#">
+                                        <img src="https://lh3.googleusercontent.com/a-/AOh14Gjz9k019WKC2n_68llZLG8vAUL5fJvvWdKV73G-=s360-p-rw-no" class="rounded-circle">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-header text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4">
+                            <div class="d-flex justify-content-between">
+                                <a href="@Url.Action("Logout")" class="btn btn-sm btn-info mr-4">Đăng xuất</a>
+                                <a href="#" class="btn btn-sm btn-default float-right">Đổi ảnh</a>
+                            </div>
+                        </div>
+                        <div class="card-body pt-0 pt-md-4">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card-profile-stats d-flex justify-content-center mt-md-5">
+                                        <div>
+                                            <span class="heading">0</span>
+                                            <span class="description">Đã mua</span>
+                                        </div>
+                                        <div>
+                                            <span class="heading">0</span>
+                                            <span class="description">Đã đánh giá</span>
+                                        </div>
+                                        <div>
+                                            <span class="heading">0</span>
+                                            <span class="description">Giỏ hàng</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h3>
+                                    @current_user.Name<span class="font-weight-light"></span>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- left section -->
+                <div class="col-xl-8 order-xl-1">
+                    <div class="card bg-secondary shadow">
+                        <div class="card-header bg-white border-0">
+                            <div class="row align-items-center">
+                                <div class="col-8">
+                                    <h3 class="mb-0">Tài khoản</h3>
+                                </div>
+                                <div class="col-4 text-right">
+                                    <a href="#donhang" class="btn btn-sm btn-primary">Đơn hàng</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+
+                            <!-- start form here -->
+                            <form method="POST" id="my_form" novalidate>
+                                <h6 class="heading-small text-muted mb-4">
+                                    Thông tin cá nhân
+                                    <div class="btn-submit-form">
+                                        <a href="#" class="btn btn-sm btn-primary" name="submit" id="btn-submit-change">Lưu</a>
+                                        <a href="#" class="btn btn-sm btn-primary" id="changepass">Đổi mật khẩu</a>
+                                    </div>
+                                </h6>
+
+                                <div id="basic">
+                                    <div class="pl-lg-4">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="form-group focused">
+                                                    <label class="form-control-label" for="input-name">Username</label>
+                                                    <input type="text" id="input-username" name="input-username" class="form-control form-control-alternative" placeholder="Họ tên" value="@current_user.UserName" disabled>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-group focused">
+                                                    <label class="form-control-label" for="input-name">Họ tên</label>
+                                                    <input type="text" id="input-name" name="input-name" class="form-control form-control-alternative" placeholder="Họ tên" value="@current_user.Name">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <label class="form-control-label" for="input-email">Email</label>
+                                                    <input type="email" id="input-email" name="input-email" class="form-control form-control-alternative" value="@current_user.Email">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="form-group focused">
+                                                    <label class="form-control-label" for="input-phone">Số điện thoại</label>
+                                                    <input type="text" id="input-phone" name="input-phone" class="form-control form-control-alternative" value="@current_user.Phone">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="my-4">
+                                    <!-- Address -->
+                                    <h6 class="heading-small text-muted mb-4">Thông tin giao - nhận hàng</h6>
+                                    <div class="pl-lg-4">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group focused">
+                                                    <label class="form-control-label" for="input-address">Địa chỉ</label>
+                                                    <input id="input-address" name="input-address" class="form-control form-control-alternative" placeholder="" type="text" value="@current_user.Address">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="form-group focused">
+                                                    <label class="form-control-label" for="input-city">Xã - phường</label>
+                                                    <input type="text" id="input-city" name="input-city" class="form-control form-control-alternative" placeholder="Xã - phường" value="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="form-group focused">
+                                                    <label class="form-control-label" for="input-country">Quận - huyện</label>
+                                                    <input type="text" id="input-country" name="input-country" class="form-control form-control-alternative" placeholder="Quận- huyện" value="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="form-group">
+                                                    <label class="form-control-label" for="input-tp">Tỉnh - thành phố</label>
+                                                    <input type="text" id="input-tp" name="input-tp" class="form-control form-control-alternative" placeholder="Thành phố">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="my-4">
+                                    <!-- Payment -->
+                                    <h6 class="heading-small text-muted mb-4">Thông tin thanh toán</h6>
+                                    <div class="pl-lg-4">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group focused">
+                                                    <p>Chưa chọn phương thức thanh toán</p>
+                                                    <div class="col-4">
+                                                        <a href="#!" class="btn btn-sm btn-primary">Thêm phương thức</a>
+                                                        <div style="margin: 20px 0;"></div>
+                                                        <a href="#!" class="btn btn-sm btn-primary">Liên kết tài khoản ngân hàng</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="password">
+                                    <div class="pl-lg-4">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="form-group focused">
+                                                    <label class="form-control-label" for="input_password">Mật khẩu mới</label>
+                                                    <input type="password" name="input_password" id="input_password" class="form-control form-control-alternative">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-group focused">
+                                                    <label class="form-control-label" for="input-repassword">Xác nhận mật khẩu</label>
+                                                    <input type="password" name="input-repassword" id="input-repassword" class="form-control form-control-alternative">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+
+            $("#changepass").click(function () {
+                if ($("#password").css("display") == "block") {
+                    $("#changepass").text("Đổi mật khẩu");
+                    $("#password").css("display", "none");
+                    $("#basic").css("display", "block");
+                }
+                else {
+                    $("#password").css("display", "block");
+                    $("#basic").css("display", "none");
+                    $("#changepass").text("Thông tin cá nhân");
+                }
+            });
+
+        });
+
+
+
+
+        $("#btn-submit-change").click(function (e) {
+            var f = true;
+            var change_info = false;
+            var change_pass = false;
+
+            if ($("#basic").css("display") == "block") {
+
+                //change info
+                $('#my_form').find('input:not("#input_password,#input-repassword")').each(function () {
+                    if ($(this).prop("value") == "" || $(this).prop("value") == " ")
+                        f = false;
+                });
+                if (!f) {
+                    alert("Vui lòng nhập đủ dữ liệu");
+                }
+                else change_info = true;
+            }
+            else {
+                //change pass
+                $('#password').find('input').each(function () {
+                    if ($(this).prop("value") == "" || $(this).prop("value") == " ")
+                        f = false;
+                });
+                if (!f) {
+                    alert("Vui lòng nhập đủ dữ liệu");
+                }
+                else
+                    if ($("#input_password").val() != $("#input-repassword").val()) {
+                        alert("Mật khẩu không khớp");
+                    }
+                    else change_pass = true;
+            }
+
+            if (change_info) {
+                e.preventDefault();
+                $.ajax({
+                    url: '@Url.Action("UpdateInfo")',
+                    type: 'POST',
+                    data: $("#my_form").serialize(),
+                            success: function (data) {
+                        alert(data);
+                    },
+                        error: function (data) {
+                            alert(data);
+                        }
+                        });
+            }
+            else
+                if (change_pass)
+            {
+                        e.preventDefault();
+                    $.ajax({
+                        url: '@Url.Action("ChangePassword")',
+                        type: 'POST',
+                        data: { input_password:  $("#input_password").val() },
+                        success: function (data) {
+                                alert(data);
+                            },
+                        error: function (data) {
+                                alert(data);
+                            },
+                        });
+            }
+        })
+
+
+
+
+
+    </script>
+}

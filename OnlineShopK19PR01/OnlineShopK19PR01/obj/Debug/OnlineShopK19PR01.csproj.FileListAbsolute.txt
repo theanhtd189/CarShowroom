@@ -1,0 +1,300 @@
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\OnlineShopK19PR01.dll.config
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\OnlineShopK19PR01.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\OnlineShopK19PR01.pdb
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\csc.exe
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\csc.exe.config
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\csc.rsp
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\csi.exe
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\csi.exe.config
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\csi.rsp
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.AppContext.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Collections.Immutable.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Console.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Globalization.Calendars.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.IO.Compression.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.IO.FileSystem.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Net.Http.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Net.Sockets.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Reflection.Metadata.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.ValueTuple.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Xml.XPath.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\vbc.exe
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\vbc.exe.config
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\vbc.rsp
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\VBCSCompiler.exe
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\VBCSCompiler.exe.config
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\Antlr3.Runtime.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\EntityFramework.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\EntityFramework.SqlServer.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\Microsoft.Web.Infrastructure.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\Models.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\Newtonsoft.Json.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Net.Http.Formatting.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Helpers.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Http.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Http.WebHost.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Mvc.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Optimization.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Razor.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.WebPages.Deployment.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.WebPages.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.WebPages.Razor.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\WebGrease.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\Models.pdb
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\Models.dll.config
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\EntityFramework.xml
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\EntityFramework.SqlServer.xml
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Helpers.xml
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Mvc.xml
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Optimization.xml
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Razor.xml
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.WebPages.xml
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.WebPages.Deployment.xml
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.WebPages.Razor.xml
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\Newtonsoft.Json.xml
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\Antlr3.Runtime.pdb
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Net.Http.Formatting.xml
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Http.xml
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Http.WebHost.xml
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\obj\Debug\OnlineShopK19PR01.csprojAssemblyReference.cache
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\obj\Debug\OnlineShopK19PR01.csproj.CoreCompileInputs.cache
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\obj\Debug\OnlineShopK19PR01.csproj.CopyComplete
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\obj\Debug\OnlineShopK19PR01.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\obj\Debug\OnlineShopK19PR01.pdb
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\OnlineShopK19PR01.dll.config
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\OnlineShopK19PR01.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\OnlineShopK19PR01.pdb
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\csc.exe
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\csc.exe.config
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\csc.rsp
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\csi.exe
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\csi.exe.config
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\csi.rsp
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.AppContext.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Collections.Immutable.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Console.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Globalization.Calendars.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.IO.Compression.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.IO.FileSystem.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Net.Http.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Net.Sockets.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Reflection.Metadata.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.ValueTuple.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Xml.XPath.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\vbc.exe
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\vbc.exe.config
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\vbc.rsp
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\VBCSCompiler.exe
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\VBCSCompiler.exe.config
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\Antlr3.Runtime.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\EntityFramework.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\EntityFramework.SqlServer.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\Microsoft.Web.Infrastructure.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\Models.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\Newtonsoft.Json.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Net.Http.Formatting.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Helpers.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Http.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Http.WebHost.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Mvc.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Optimization.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Razor.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.WebPages.Deployment.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.WebPages.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.WebPages.Razor.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\WebGrease.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\Models.pdb
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\Models.dll.config
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\EntityFramework.xml
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\EntityFramework.SqlServer.xml
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Helpers.xml
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Mvc.xml
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Optimization.xml
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Razor.xml
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.WebPages.xml
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.WebPages.Deployment.xml
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.WebPages.Razor.xml
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\Newtonsoft.Json.xml
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\Antlr3.Runtime.pdb
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Net.Http.Formatting.xml
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Http.xml
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Http.WebHost.xml
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\obj\Debug\OnlineShopK19PR01.csprojAssemblyReference.cache
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\obj\Debug\OnlineShopK19PR01.csproj.CoreCompileInputs.cache
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\obj\Debug\OnlineShopK19PR01.csproj.CopyComplete
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\obj\Debug\OnlineShopK19PR01.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\obj\Debug\OnlineShopK19PR01.pdb
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\PagedList.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\PagedList.Mvc.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\PagedList.xml
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\PagedList.Mvc.xml
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\CKFinder.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\CKFinder_FileEditor.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\CKFinder_ImageResize.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\CKFinder_Watermark.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\CKFinder.pdb
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\CKFinder_FileEditor.pdb
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\CKFinder_ImageResize.pdb
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\OnlineShopK19PR01\bin\CKFinder_Watermark.pdb
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\OnlineShopK19PR01.dll.config
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\OnlineShopK19PR01.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\OnlineShopK19PR01.pdb
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\csc.exe
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\csc.exe.config
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\csc.rsp
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\csi.exe
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\csi.exe.config
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\csi.rsp
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.AppContext.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Collections.Immutable.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Console.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Globalization.Calendars.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.IO.Compression.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.IO.FileSystem.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Net.Http.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Net.Sockets.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Reflection.Metadata.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.ValueTuple.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Xml.XPath.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\vbc.exe
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\vbc.exe.config
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\vbc.rsp
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\VBCSCompiler.exe
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\roslyn\VBCSCompiler.exe.config
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\Antlr3.Runtime.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\CKFinder.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\CKFinder_FileEditor.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\CKFinder_ImageResize.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\CKFinder_Watermark.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\EntityFramework.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\EntityFramework.SqlServer.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\Microsoft.Web.Infrastructure.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\Models.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\Newtonsoft.Json.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\PagedList.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\PagedList.Mvc.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Net.Http.Formatting.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Helpers.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Http.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Http.WebHost.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Mvc.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Optimization.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Razor.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.WebPages.Deployment.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.WebPages.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.WebPages.Razor.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\WebGrease.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\Models.pdb
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\Models.dll.config
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\CKFinder.pdb
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\CKFinder_FileEditor.pdb
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\CKFinder_ImageResize.pdb
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\CKFinder_Watermark.pdb
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\EntityFramework.xml
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\EntityFramework.SqlServer.xml
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\PagedList.xml
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\PagedList.Mvc.xml
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Helpers.xml
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Mvc.xml
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Optimization.xml
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Razor.xml
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.WebPages.xml
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.WebPages.Deployment.xml
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.WebPages.Razor.xml
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\Newtonsoft.Json.xml
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\Antlr3.Runtime.pdb
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Net.Http.Formatting.xml
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Http.xml
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\System.Web.Http.WebHost.xml
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\obj\Debug\OnlineShopK19PR01.csproj.CoreCompileInputs.cache
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\obj\Debug\OnlineShopK19PR01.csproj.CopyComplete
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\obj\Debug\OnlineShopK19PR01.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\obj\Debug\OnlineShopK19PR01.pdb
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\OnlineShopK19PR01\obj\Debug\OnlineShopK19PR01.csprojAssemblyReference.cache

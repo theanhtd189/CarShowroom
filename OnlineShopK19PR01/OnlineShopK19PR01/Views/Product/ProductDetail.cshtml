@@ -1,0 +1,166 @@
+﻿
+@{
+    ViewBag.Title = "ProductDetail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var slides = (List<Models.Framework.Slide>)ViewBag.Slides;
+    var product = (Models.Framework.Product)ViewBag.Product;
+    var listRelateProduct = (List<Models.Framework.Product>)ViewBag.ListRelateProduct;
+}
+
+<section id="home-section" class="hero">
+    <div class="home-slider owl-carousel">
+        @foreach (var item in slides)
+        {
+            <div class="slider-item" style="background-image: url(@item.Image);">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
+
+                        <div class="col-md-12 ftco-animate text-center">
+                            <h1 class="mb-2">We serve Fresh Vegestables &amp; Fruits</h1>
+                            <h2 class="subheading mb-4">We deliver organic vegetables &amp; fruits</h2>
+                            <p><a href="@item.Link" class="btn btn-primary">Chi tiết</a></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        }
+
+
+
+    </div>
+</section>
+
+<section class="ftco-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mb-5 ftco-animate">
+                <a href="images/product-1.jpg" class="image-popup"><img src="@product.Image" class="img-fluid" alt="@product.Name"></a>
+            </div>
+            <div class="col-lg-6 product-details pl-md-5 ftco-animate">
+                <h3>@product.Name</h3>
+                <div class="rating d-flex">
+                    <p class="text-left mr-4">
+                        <a href="#" class="mr-2">5.0</a>
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                        <a href="#"><span class="ion-ios-star-outline"></span></a>
+                    </p>
+                    <p class="text-left mr-4">
+                        <a href="#" class="mr-2" style="color: #000;">100 <span style="color: #bbb;">Rating</span></a>
+                    </p>
+                    <p class="text-left">
+                        <a href="#" class="mr-2" style="color: #000;">500 <span style="color: #bbb;">Sold</span></a>
+                    </p>
+                </div>
+                @if (product.PromotionPrice != null)
+                {
+                    <p class="price"><span>@(product.Price.ToString())</span></p>
+                    <p class="price"><span>@(product.PromotionPrice.Value.ToString("N0"))</span></p>
+                }
+                else
+                {
+                    <p class="price"><span>@(product.Price.ToString("N0"))</span></p>
+                }
+                <p>
+                    @product.Detail
+                </p>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <div class="form-group d-flex">
+                            <div class="select-wrap">
+                                <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                                <select name="" id="" class="form-control">
+                                    <option value="">Small</option>
+                                    <option value="">Medium</option>
+                                    <option value="">Large</option>
+                                    <option value="">Extra Large</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="input-group col-md-6 d-flex mb-3">
+                        <span class="input-group-btn mr-2">
+                            <button type="button" class="quantity-left-minus btn" data-type="minus" data-field="">
+                                <i class="ion-ios-remove"></i>
+                            </button>
+                        </span>
+                        <input type="text" id="quantity" name="quantity" class="form-control input-number" value="1" min="1" max="100">
+                        <span class="input-group-btn ml-2">
+                            <button type="button" class="quantity-right-plus btn" data-type="plus" data-field="">
+                                <i class="ion-ios-add"></i>
+                            </button>
+                        </span>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col-md-12">
+                        <p style="color: #000;">600 kg available</p>
+                    </div>
+                </div>
+                <p><a href="/them-gio-hang/@product.ID/1" class="btn btn-black py-3 px-5">Thêm vào giỏ hàng</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section">
+    <div class="container">
+        <div class="row justify-content-center mb-3 pb-3">
+            <div class="col-md-12 heading-section text-center ftco-animate">
+                <span class="subheading">Products</span>
+                <h2 class="mb-4">Related Products</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            @foreach (var item in listRelateProduct)
+            {
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="product">
+                        <a href="/san-pham/@item.MetaTitle/@item.ID" class="img-prod">
+                            <img class="img-fluid" src="@item.Image" alt="Colorlib Template">
+                            
+                            <div class="overlay"></div>
+                        </a>
+                        <div class="text py-3 pb-4 px-3 text-center">
+                            <h3><a href="/san-pham/@item.MetaTitle/@item.ID">@item.Name</a></h3>
+                            <div class="d-flex">
+                                @if (product.PromotionPrice != null)
+                                {
+                                    <p class="price"><span>@(product.Price.ToString("N0"))</span></p>
+                                    <p class="price"><span>@(product.PromotionPrice.Value.ToString("N0"))</span></p>
+                                }
+                                else
+                                {
+                                    <p class="price"><span>@(product.Price.ToString("N0"))</span></p>
+                                }
+                            </div>
+                            <div class="bottom-area d-flex px-3">
+                                <div class="m-auto d-flex">
+                                    <a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
+                                        <span><i class="ion-ios-menu"></i></span>
+                                    </a>
+                                    <a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1">
+                                        <span><i class="ion-ios-cart"></i></span>
+                                    </a>
+                                    <a href="#" class="heart d-flex justify-content-center align-items-center ">
+                                        <span><i class="ion-ios-heart"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section ftco-no-pt ftco-no-pb py-5 bg-light">

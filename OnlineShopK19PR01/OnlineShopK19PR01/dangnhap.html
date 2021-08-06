@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+        html , body{
+            height: 100%;
+            width: 100%;
+        }
+        * {
+            outline: none;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+        .nen {
+            background-image: url(./images/background/admin-panel.jpg);
+            background-size:     cover;                   
+            background-repeat:   no-repeat;
+            background-position: center center;  
+            height: 100vh;
+        }
+
+        @keyframes open {
+        0% {
+            -webkit-transform: rotate(-540deg) scale(0) translate(-50%,-50%);
+                    transform: rotate(-540deg) scale(0) translate(-50%,-50%);
+            opacity: 0;
+            display: none;
+        }
+        100% {
+            -webkit-transform: rotate(0) scale(1) translate(-50%,-50%);
+                    transform: rotate(0) scale(1) translate(-50%,-50%);
+            opacity: 1;
+            display: block;
+        }
+        }
+
+        @keyframes out {
+        0% {
+            -webkit-transform: rotateY(0) translate(-50%,-50%) ;
+                    transform: rotateY(0) translate(-50%,-50%) ;
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: rotateY(-180deg) translate(-50%,-50%) ;
+                    transform: rotateY(-180deg) translate(-50%,-50%) ;
+            opacity: 0;
+        visibility: hidden;
+        }
+        }
+        .out {
+            animation: out .4s 1 both;
+        }
+        .op {
+            animation: open 0.6s ease-out both;
+        }
+        #sign_up {
+            display: none;
+        }
+        .log-form {
+            transform-origin: top left;
+            width: 450px;
+            line-height: 3.5rem;
+            border: 1px solid rgb(255, 255, 255);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            padding: 2rem 2rem 5.5rem;
+            transition: .6s;
+            overflow: hidden;
+            border-radius: 10px;
+            background: rgba(0, 0, 0,0.8);
+        }
+        .log-form:hover {
+            border: 1px solid rgb(194, 151, 151);
+            transition: .5s;
+        }
+        h2 {
+            position: absolute;
+            padding: 0 1rem;
+            transform: translate(1%,180%);
+            text-align: center;
+            text-transform: uppercase;
+            left: 50%;
+            top: -160px;
+            bottom: 110%;
+            font-size: 2rem;
+            color: rgb(228, 225, 222);
+            transition: .8s;
+            transform: translateX(-50%) translateY(250px);
+            text-shadow: 1px 2px 5px rgb(235, 88, 88);
+            animation: label 1s 1;
+        }
+        @keyframes label {
+            from {
+                transform: translateX(-50%) translateY(-350px);
+            }
+            to {
+                transform: translateX(-50%) translateY(250px);
+            }
+        }
+        .content {
+            margin: 0 auto;
+        }
+        input[type=text],input[type=password] {
+            display: block;
+            border: none;
+            padding: 15px;
+            color: wheat;
+            background-color: transparent;
+            border-bottom: 1px solid rgb(19, 251, 213);
+            border-left: 1px solid rgb(63, 128, 248);
+            width: 70%;
+            transition: .6s;
+            height: 20px;
+            font-size: 1rem;
+            transform: scale(0.9);
+        }
+        input:focus {
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid rgb(248, 58, 58);
+            border-left: 1px solid rgb(248, 58, 58);
+            transition: .5s;
+            transform: scale(1);
+            width: 85%;
+        }
+        label {
+            color: rgb(161, 151, 151);
+            text-shadow: 1px 1px 2px red;
+            text-transform: uppercase;
+            transition: .7s;
+            transform: translateX(-20px);
+        }
+        
+        input[type="submit"], button {
+            border: 1px solid transparent;
+            margin-top: 1.9rem;
+            padding: 9px 20px 5px;
+            border-radius: 24px;  
+            cursor: pointer;
+            transition: .6s;
+            border: 1px solid rgb(255, 255, 255);
+            background-color: transparent;
+            color: snow;
+            text-transform: uppercase;
+        }
+        input[type="submit"]:hover,input[type="submit"]:focus, button:hover {
+            padding: 9px 40px 5px;
+            transition: .5s;
+            background: #000;
+        }
+        i.fas {
+            color: wheat!important;
+            width: 20px;
+            height: 20px;
+            margin-right: 0.5rem;
+        }
+        .diff {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            line-height: 1.7rem;
+            transform: translateX(-50%) translateY(-200px);
+            transition: .7s;
+            animation: diff 1s 1;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+        .diff p {
+            transition: .8s;
+            color: wheat;
+        }
+        .diff p:hover {
+            text-shadow: 1px 1px 5px pink;
+            transition: .7s;
+        }
+        .diff a {
+            color: rgb(162, 189, 175);
+            transition: .8s;
+            
+        }
+        .diff a:hover {
+            text-shadow: 1px 1px 5px rgb(177, 161, 164);
+        }
+        @keyframes diff {
+            from {
+                transform: translateX(-50%) translateY(1000px);
+            }
+            to {
+                transform: translateX(-50%) translateY(-200px);
+            }
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+            window.addEventListener('load',function(){
+                let x = document.querySelector("#sign_in");
+                x.classList.add("op");
+
+                let y = document.querySelector("#open_sign_up");
+                y.addEventListener('click',function(){
+                    
+
+                    $("#sign_in").css("animation","out 1s 1 both");
+                    $("#sign_up").css("display","block");
+                    $("#sign_up").css("animation","open 1s 1 both");
+                    $("#lb-dn").text("ĐĂNG KÝ");
+                    $(".diff").css("display","none");
+                    $("#sign_up").css("padding-bottom","2rem");
+                    
+                    
+                });   
+
+                let z = document.querySelector("#dangnhap");
+                z.addEventListener('click',function(){
+                    $("#sign_up").css("animation","out 1s 1 both");
+                    $("#sign_in").css("animation","open 1s 1 both");
+                    $(".diff").fadeTo(10,1);
+                    $("#lb-dn").text("ĐĂNG nhập");
+                });
+
+            });
+            
+    </script>
+</head>
+<body>
+    <center>
+        <div class="nen">
+            <div class="content">
+            
+                    <form action="#" class="log-form" id="sign_up" autocomplete="off">
+                        <label for="Username"><i class="fas fa-user"></i>Họ và tên</label>
+                        <input type="text" length="50">
+                        <label for="Username"><i class="fas fa-user"></i>Email</label>
+                        <input type="text" length="50">
+                        <label for="Username"><i class="fas fa-user"></i>Username</label>
+                        <input type="text" length="50">
+                        <label for="Username"><i class="fas fa-key"></i>Password</label>
+                        <input type="password" length="30">
+                        <input type="submit" value="Đăng ký" class="btn-sub">
+                        <button id='dangnhap'>Đăng nhập</button>
+                        
+                    </form>
+
+                    <form action="#" class="log-form" id="sign_in" autocomplete="off">
+                        <label for="Username"><i class="fas fa-user"></i>Username</label>
+                        <input type="text" length="50">
+                        <label for="Username"><i class="fas fa-key"></i>Password</label>
+                        <input type="password" length="30">
+                        <input type="submit" value="Đăng nhập" class="btn-sub">
+                    </form>
+                    <h2 id="lb-dn">Đăng Nhập</h2>
+
+                
+                <div class="diff">
+                <p>Bạn quên mật khẩu? <a href="#">RESET PASSWORD!</a></p>
+                <p><a href="#" id="open_sign_up">Đăng Ký Tài Khoản Mới</a></p>
+                </div>
+            </div>
+        </div>
+    </center>
+    
+</body>
+</html>

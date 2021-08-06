@@ -1,0 +1,43 @@
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\Models.dll.config
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\Models.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\Models.pdb
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\EntityFramework.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\EntityFramework.xml
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\obj\Debug\Models.csprojAssemblyReference.cache
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\obj\Debug\Models.csproj.CopyComplete
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\obj\Debug\Models.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\obj\Debug\Models.pdb
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\Models.dll.config
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\Models.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\Models.pdb
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\EntityFramework.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\EntityFramework.xml
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\obj\Debug\Models.csproj.CopyComplete
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\obj\Debug\Models.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\obj\Debug\Models.pdb
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\PagedList.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\PagedList.Mvc.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\PagedList.xml
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\PagedList.Mvc.xml
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\obj\Debug\Models.csprojAssemblyReference.cache
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\obj\Debug\Models.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\obj\Debug\Models.pdb
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\bin\Debug\Models.dll.config
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\bin\Debug\Models.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\bin\Debug\Models.pdb
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\bin\Debug\EntityFramework.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\bin\Debug\PagedList.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\bin\Debug\PagedList.Mvc.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\bin\Debug\EntityFramework.xml
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\bin\Debug\PagedList.xml
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\bin\Debug\PagedList.Mvc.xml
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\obj\Debug\Models.csproj.CopyComplete

@@ -1,0 +1,198 @@
+﻿@using Models.DAL
+@using OnlineShopK19PR01.Common
+@{
+    ViewBag.Title = "Trang chủ";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+@*    var productCategory = (List<Models.Framework.ProducCategory>)ViewBag.ProductCategory;*@
+    var slides = new SlideDAL().ListAll();
+    var listFeatureProduct = (List<Models.Framework.Product>)ViewBag.ListFeatureProduct;
+    var listFeaturedNews = (List<Models.Framework.Content>)ViewBag.ListNews;
+}
+
+<script type="text/javascript">
+        $(document).ready(function () {
+            $('.flexslider').flexslider({
+    animation: 'slide'
+            });
+            $(window).trigger('resize');
+});
+</script>
+<section id="page-home">
+    <div class="module-slider">
+        <div class="flexslider">
+            <ul class="slides">
+                @if (slides == null)
+                {
+                    <h2>SLide chưa được thêm</h2>
+                }
+                else
+                {
+                    foreach (var item in slides)
+                    {
+                        if (item.Image != null)
+                        {
+                            <li>
+                                <a rel="nofollow" href="@item.Link">
+                                    <img src="@item.Image" alt="" />
+                                </a>
+                            </li>
+                        }
+
+                    }
+
+                }
+            </ul>
+        </div>
+    </div>
+
+    <div class="block-cars" id="sanpham">
+        <div class="container">
+            <h1 class="title" id="sp">Showroom XeViet - Đại lý xe hàng đầu Việt Nam</h1>
+            <div class="row">
+                @if (listFeatureProduct == null)
+                {
+                    <h2>Chưa có sản phẩm nào được thêm</h2>
+                }
+                else
+                {
+                    foreach (var item in listFeatureProduct)
+                    {
+                        <div class="col col-4">
+                            <a href="@Url.Action("ProductDetail","Sanpham")/@item.ID"><h3>@item.Name</h3></a>
+                            <div class="price">@Format.FormatNumber(item.Price) VND</div>
+                            <a href="@Url.Action("ProductDetail","Sanpham")/@item.ID">
+                                <div class="product-image" style="background-image: url(@item.Image);"></div>
+                            </a>
+
+                        </div>
+                    }
+                }
+
+
+
+
+            </div>
+        </div>
+        <button class="more"><a href="@Url.Action("index","sanpham")">Xem thêm</a></button>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="content" id="dichvu">
+        <div class="heading">
+            <h2>Dịch vụ của chúng tôi</h2>
+        </div>
+        <div class="dv">
+            <div class="box">
+                <h2>Đăng ký lái thử</h2>
+                <i class="fas fa-car"></i>
+                <p>Trải nghiệm cảm giác lái thử, cảm nhận về động cơ, nội thất ngoại thất, chất lượng về độ an toàn.</p>
+            </div>
+            <div class="box">
+                <h2>Mua xe trả góp</h2>
+                <i class="fas fa-luggage-cart"></i>
+                <p>Bảng dự trù chi phí để lăn bánh, hỗ trợ mua xe với lãi suất ưu đãi từ các ngân hàng MB, TPbank, Woori bank..</p>
+            </div>
+            <div class="box">
+                <h2>Nhận báo giá</h2>
+                <i class="fas fa-receipt"></i>
+                <p>Đăng ký nhận báo giá ngay hôm nay để nhận được các mức giá ưu đãi nhất trong tháng.</p>
+            </div>
+            <div class="box">
+                <h2>Bảo dưỡng</h2>
+                <i class="fas fa-caravan"></i>
+                <p>Quý khách luôn nhận được sự chăm sóc kỹ càng của chúng tôi, bảo hành lên tới 5 năm hoặc 165.000km, cứu hộ 24/24h</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="content" id="doitac">
+        <div class="heading">
+            <h2>Đối tác</h2>
+        </div>
+        <div class="hang">
+            <img class="brand" src="https://cdn.iconscout.com/icon/free/png-256/toyota-1-202914.png">
+            <img class="brand" src="https://binhduonghyundai.vn/wp-content/uploads/2020/03/site-icon-hyundai-binh-duong.png">
+            <img class="brand" src="https://smartscentvn.com/wp-content/uploads/2018/12/Mazda-logo-1997-1920x1080.png">
+            <img class="brand" src="https://cdn.iconscout.com/icon/free/png-256/audi-6-282743.png">
+            <img class="brand" src="https://cdn.iconscout.com/icon/free/png-512/bmw-15-569247.png">
+            <img class="brand" src="https://img.icons8.com/color/452/ford.png">
+            <img class="brand" src="https://cdn.iconscout.com/icon/free/png-512/lamborghini-5-569501.png">
+            <img class="brand" src="https://canthoauto.com/wp-content/uploads/2018/10/vinfast-avatar-1200x900.png">
+            <img class="brand" src="tesla.png">
+            <img class="brand" src="https://img.icons8.com/color/452/porsche.png">
+            <img class="brand" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Honda.svg/1280px-Honda.svg.png">
+            <img class="brand" src="https://iconape.com/wp-content/png_logo_vector/mercedes-benz-2.png">
+
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="container" id="tintuc">
+        <h2 class="block-title">Tin tức</h2>
+        <div class="row">
+            @if (listFeaturedNews != null)
+            {
+                if (listFeaturedNews.Count > 0)
+                {
+                    <div class="col col-6 big-article">
+                        <a href="@Url.Action("detail","tintuc",new { listFeaturedNews[0].ID })" class="vp-43" style="background-image: url('@listFeaturedNews[0].Image');">
+                            <img src="@listFeaturedNews[0].Image" alt="">
+                        </a>
+                        <a href="@Url.Action("detail","tintuc",new { listFeaturedNews[0].ID })">
+                            <h3>@listFeaturedNews[0].Name</h3>
+                        </a>
+                    </div>
+                    for (int i = 1; i < listFeaturedNews.Count; i++)
+                    {
+                        <div class="col col-6">
+                            <div class="small-article">
+                                <a href="@Url.Action("detail","tintuc",new { listFeaturedNews[i].ID })" class="vp-43" style="background-image: url('@listFeaturedNews[i].Image');">
+                                    <img src="@listFeaturedNews[i].Image" alt="">
+                                </a>
+                                <a href="@Url.Action("detail","tintuc",new { listFeaturedNews[i].ID })">
+                                    <h3>@listFeaturedNews[i].Name</h3>
+                                </a>
+                            </div>
+                        </div>
+                    }
+                }
+            }
+            else
+            {
+                <h2>Chưa có bài viết nào được thêm</h2>
+            }
+        </div>
+        <a href="@Url.Action("","tintuc")" class="more-news">Xem thêm .... </a>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="reserve">
+        <div class="container">
+            <h3>ĐẶT TRƯỚC XE</h3>
+            <p>Hãy là người đầu tiên trải nghiệm những phiên bản xe đẳng cấp quốc tế</p>
+            <form action="" method="post" autocomplete="off">
+                <label>Họ và Tên*</label>
+                <input name="name" type="text" required>
+                <label>Địa chỉ*</label>
+                <input name="address" type="text" required>
+                <div class="row">
+                    <div class="col col-6">
+                        <label>Số điện thoại*</label>
+                        <input name="phone" type="text" required>
+                    </div>
+                    <div class="col col-6">
+                        <label>Email</label>
+                        <input name="email" type="email">
+                    </div>
+                </div>
+                <button type="submit" name="task" value="reserve">Gửi tin nhắn</button>
+            </form>
+        </div>
+    </div>
+</section>
+

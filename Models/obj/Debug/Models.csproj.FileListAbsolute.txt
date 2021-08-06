@@ -1,0 +1,103 @@
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\Models.dll.config
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\Models.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\Models.pdb
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\EntityFramework.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\EntityFramework.xml
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\obj\Debug\Models.csprojAssemblyReference.cache
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\obj\Debug\Models.csproj.CopyComplete
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\obj\Debug\Models.dll
+D:\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\obj\Debug\Models.pdb
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\Models.dll.config
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\Models.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\Models.pdb
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\EntityFramework.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\EntityFramework.xml
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\obj\Debug\Models.csproj.CopyComplete
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\obj\Debug\Models.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\obj\Debug\Models.pdb
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\PagedList.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\PagedList.Mvc.dll
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\PagedList.xml
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\bin\Debug\PagedList.Mvc.xml
+D:\Tai lieu giang day\Giáo trình asp mvc 5\Du an\OnlineShopK19PR01\Models\obj\Debug\Models.csprojAssemblyReference.cache
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\obj\Debug\Models.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\obj\Debug\Models.pdb
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\bin\Debug\Models.dll.config
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\bin\Debug\Models.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\bin\Debug\Models.pdb
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\bin\Debug\EntityFramework.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\bin\Debug\PagedList.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\bin\Debug\PagedList.Mvc.dll
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\bin\Debug\EntityFramework.xml
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\bin\Debug\PagedList.xml
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\bin\Debug\PagedList.Mvc.xml
+D:\Code\web_asp\OnlineShopK19PR01\OnlineShopK19PR01\Models\obj\Debug\Models.csproj.CopyComplete
+D:\Code\C#\web_ban_xe\Models\bin\Debug\Models.dll.config
+D:\Code\C#\web_ban_xe\Models\bin\Debug\Models.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\Models.pdb
+D:\Code\C#\web_ban_xe\Models\bin\Debug\EntityFramework.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\PagedList.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\PagedList.Mvc.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\EntityFramework.xml
+D:\Code\C#\web_ban_xe\Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\Code\C#\web_ban_xe\Models\bin\Debug\PagedList.xml
+D:\Code\C#\web_ban_xe\Models\bin\Debug\PagedList.Mvc.xml
+D:\Code\C#\web_ban_xe\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\Code\C#\web_ban_xe\Models\obj\Debug\Models.csproj.CopyComplete
+D:\Code\C#\web_ban_xe\Models\obj\Debug\Models.dll
+D:\Code\C#\web_ban_xe\Models\obj\Debug\Models.pdb
+D:\Code\C#\web_ban_xe\Models\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\System.Web.Helpers.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\System.Web.Mvc.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\System.Web.Razor.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\System.Web.WebPages.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\System.Web.Helpers.xml
+D:\Code\C#\web_ban_xe\Models\bin\Debug\System.Web.Mvc.xml
+D:\Code\C#\web_ban_xe\Models\bin\Debug\System.Web.Razor.xml
+D:\Code\C#\web_ban_xe\Models\bin\Debug\System.Web.WebPages.xml
+D:\Code\C#\web_ban_xe\Models\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Code\C#\web_ban_xe\Models\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\csc.exe
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\csc.exe.config
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\csc.rsp
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\csi.exe
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\csi.exe.config
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\csi.rsp
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\Microsoft.Managed.Core.targets
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\System.Buffers.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\System.Collections.Immutable.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\System.Memory.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\System.Numerics.Vectors.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\System.Reflection.Metadata.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\System.Text.Encoding.CodePages.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\vbc.exe
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\vbc.exe.config
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\vbc.rsp
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\VBCSCompiler.exe
+D:\Code\C#\web_ban_xe\Models\bin\Debug\roslyn\VBCSCompiler.exe.config
+D:\Code\C#\web_ban_xe\Models\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Code\C#\web_ban_xe\Models\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml

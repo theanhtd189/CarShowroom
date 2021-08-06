@@ -1,0 +1,10 @@
+﻿@model List<Models.Framework.Menu>
+
+<ul style="display:inline-block;color:black;">
+    @foreach (var item in Model)
+    {
+
+<li class="nav-item active" style="color:black"><a href="@item.Link" target="@item.Target" class="nav-link">@item.Text</a></li>}
+
+
+</ul>

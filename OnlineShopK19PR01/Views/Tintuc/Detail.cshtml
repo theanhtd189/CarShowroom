@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "Detail tin tuc";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+    var detail = (Models.Framework.Content)ViewBag.content;
+    var related = (List<Models.Framework.Content>)ViewBag.related;
+}
+
+<section id="page-article">
+        <div class="container">
+            <h1 class="block-title">@detail.Name </h1>
+
+            <article class="article-content">
+
+                @if (detail.MetaDescriptions != null)
+                {
+
+                    <div>@Html.Raw(Server.HtmlDecode(detail.MetaDescriptions))</div>
+                }
+                else
+                {
+                    <h3>Bài viết chưa có mô tả</h3>
+                }
+                @if (detail.Detail != null)
+                {
+
+                    <div>@Html.Raw(Server.HtmlDecode(detail.Detail))</div>
+                }
+                else
+                {
+                    <h3>Bài viết chưa có nội dung</h3>
+                }
+
+            </article>
+
+            <div class="clr"></div>
+
+            <h3 class="block-title">các thông tin khác</h3>
+            <div class="row blogs">
+
+                @if (related != null && related.Count > 0)
+                {
+                    foreach (var item in related)
+                    {
+                        <div class="col col-3 blog">
+                            <a href="@item.ID">
+                                <div class="vp" style="background-image: url('@item.Image');"><img src="@item.Image" alt=""></div>
+                                <h3>@item.Name</h3>
+                            </a>
+                        </div>
+                    }
+                }
+
+
+            </div>
+        </div>
+        <div class="clr"></div>
+</section>

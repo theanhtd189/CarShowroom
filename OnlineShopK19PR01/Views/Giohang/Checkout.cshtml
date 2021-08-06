@@ -1,0 +1,234 @@
+﻿@{
+
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+    var listRelateProduct = (List<Models.Framework.Product>)ViewBag.ListRelateProduct;
+    var quantity = ViewBag.Quantity;
+
+}
+@using Models.DAL
+@using OnlineShopK19PR01.Common
+@model Models.Framework.Product
+
+@if (Session["idnguoidung"] == null)
+{
+    Session["redirect"] = true;
+    <script type="text/javascript">
+   window.location.href = "@Url.Action("", "dangnhap")";
+    </script>
+}
+else
+{
+    var dal = new UserDAL();
+    var current_user = dal.GetById((long)Session["idnguoidung"]);
+    var total_price = Model.Price * quantity;
+    <section id="page-product">
+        <div class="info" style="top: 40%;">
+            <button class="btn left btn-active" id="btn-chitiet"><a href="#"><i class="fas fa-car-side"></i> Thông Tin Sản Phẩm</a></button>
+            <button class="btn left" id="btn-mota"><a href="#"><i class="fas fa-user-alt"></i> Thông Tin Người Nhận</a></button>
+            <button class="btn left" id="btn-dathang"><i class="fas fa-people-carry"></i> Xác Nhận Đặt Hàng</button>
+        </div>
+
+        <div class="clr"></div>
+
+        <div class="cat">
+            <h2 class="tt"></h2>
+            <div id="ct" class="container" style="padding-bottom: 0;">
+                <article class="description" style="margin-right: 80px">
+                    <div class="description_before"></div>
+                    <h2 class="product-title" id="chitiet">Thanh Toán</h2>
+
+                    <div id="chitietxe">
+                        <table align="center" border="1" cellpadding="0" cellspacing="0" style="width:80%;" summary="Thông Số Kỹ Thuật" width="211">
+                            <caption>
+                                <h2><i class="fab fa-product-hunt"></i> Thông tin sản phẩm</h2>
+                            </caption>
+                            <tbody>
+                                <tr height="20">
+                                    <td height="20"><strong>Sản phẩm</strong></td>
+                                    <td><a href="@Url.Action("ProductDetail", "Sanpham")/@Model.ID">@Model.Name</a></td>
+                                </tr>
+                                <tr height="20">
+                                    <td height="20"><strong>Nhãn hiệu</strong></td>
+                                    <td>@Model.Brand</td>
+                                </tr>
+                                <tr height="20">
+                                    <td height="20"><strong>Màu sắc</strong></td>
+                                    <td>@Model.Color</td>
+                                </tr>
+                                <tr height="20">
+                                    <td height="20"><strong>Số lượng</strong></td>
+                                    <td>@quantity Chiếc</td>
+                                </tr>
+                                <tr height="20">
+                                    <td height="20" width="121"><strong>Đơn giá</strong></td>
+                                    <td width="90">@Format.FormatNumber(Model.Price) VND</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="mota" style="padding-top:0">
+                        <div>
+                            <h2><i class="far fa-address-card"></i> Thông tin người nhận hàng </h2>
+                            <p>Họ và tên: <strong>@current_user.Name</strong></p>
+                            <p>Địa chỉ nhận hàng: <strong>@current_user.Address</strong></p>
+                            <p>Số điện thoại: <strong>@current_user.Phone</strong></p>
+                            <p>Email: <strong>@current_user.Email</strong></p>
+                            <a href="@Url.Action("", "nguoidung")" target="_blank"><i class="far fa-edit"></i> Sửa </a>
+                        </div>
+
+                    </div>
+                    <div id="xacnhan">
+                        <div id="btn-xacnhan">
+                            <h2><i class="fas fa-crosshairs"></i> Xác nhận đặt hàng</h2>
+                            <p> Bạn xác nhận đặt xe @Model.Name abc với giá @Format.FormatNumber(Model.Price) VND ?</p>
+                            <p>
+                                <button id="buy"><i class="far fa-thumbs-up"></i> Xác Nhận Mua Hàng</button>
+                                <button id="back"><i class="far fa-thumbs-down"></i> Quay về trang chủ</button>
+                            </p>
+                        </div>
+                        <div id="muathanhcong">
+                            <h2><i class="fas fa-check-circle" id="success-icon"></i> Đặt hàng thành công</h2>
+                            <p><i class="fas fa-truck"></i> Đơn hàng của bạn đã được thiết lập và sẽ sớm được xác nhận </p>
+                            <div class="camon">
+                                <h3>Cảm ơn @current_user.Name đã đặt hàng</h3>
+                                <img src="~/UploadImage/files/images/xe/car_succ.png" />
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+            </div>
+            <div class="clr"></div>
+            <div class="reserve">
+                <div class="container">
+                    <h3>Phương thức thanh toán</h3>
+                    <p>Vui lòng chọn một trong các phương thức thanh toán dưới đây</p>
+                    <div class="method">
+                        <div class="item"><img src="~/UploadImage/files/images/phuongthucthanhtoan/040-visa.png" alt="" srcset=""></div>
+                        <div class="item"><img src="~/UploadImage/files/images/phuongthucthanhtoan/006-bitcoin.png" alt="" srcset=""></div>
+                        <div class="item"><img src="~/UploadImage/files/images/phuongthucthanhtoan/022-jcb.png" alt="" srcset=""></div>
+                        <div class="item"><img src="~/UploadImage/files/images/phuongthucthanhtoan/025-mastercard.png" alt="" srcset=""></div>
+                        <div class="item"><img src="~/UploadImage/files/images/phuongthucthanhtoan/030-paypal.png" alt="" srcset=""></div>
+                        <div class="item"><img src="~/UploadImage/files/images/phuongthucthanhtoan/044-western union.png" alt="" srcset=""></div>
+                        <div class="item"><img src="~/UploadImage/files/images/phuongthucthanhtoan/019-google wallet.png" alt="" srcset=""></div>
+                        <div class="item"><img src="https://cdn.tgdd.vn/2020/03/GameApp/image(15)-200x200-1.png" alt="" srcset=""></div>
+                    </div>
+                    <h4>Hoặc</h4>
+                    <div><input type="checkbox" name="cod-payment" id="cod-payment" checked>Thanh toán khi nhận hàng</div>
+                </div>
+            </div>
+    </section>
+    <div class="clr"></div>
+
+    if (listRelateProduct != null && listRelateProduct.Count > 0)
+    {
+
+
+        <div class="related" style="border:none;">
+            <h2>Related Product</h2>
+            <div>
+                <div class="row">
+                    @if (listRelateProduct.Count < 3)
+                    {
+                        <style>
+                            .col-4, .col {
+                                width: none !important;
+                            }
+                        </style>
+                    }
+
+                    @foreach (var item in listRelateProduct)
+                    {
+
+                        <div class="col col-4">
+                            
+                            <a href="@Url.Action("ProductDetail", "Sanpham", new { item.ID })">
+                                <div class="product-image" style="background-image: url(../../@item.Image);"></div>
+                                <a href="@Url.Action("ProductDetail", "Sanpham", new { item.ID })"><h3>@item.Name</h3></a>
+                                <p class="price">@Format.FormatNumber(item.Price) VND</p>
+                            </a>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+    }
+<script type="text/javascript">
+        $(document).ready(function () {
+
+            $("#back").click(function () {
+                window.location.href = "@Url.Action("", "trangchu")";
+            })
+
+            $("#btn-mota").click(function () {
+                $("#btn-mota").addClass("btn-active");
+                $("#btn-chitiet").removeClass("btn-active");
+                $("#btn-dathang").removeClass("btn-active");
+                $("#chitietxe").css("display", "none");
+                $("#mota").css('display', "flex");
+                $("#xacnhan").css("display", "none");
+            });
+
+
+            $("#btn-chitiet").click(function () {
+                $("#btn-mota").removeClass("btn-active");
+                $("#btn-dathang").removeClass("btn-active");
+                $("#btn-chitiet").addClass("btn-active");
+                $("#chitietxe").css("display", "block");
+                $("#mota").css('display', "none");
+                $("#xacnhan").css("display", "none");
+            });
+
+            $("#btn-dathang").click(function () {
+                $("#btn-dathang").addClass("btn-active");
+                $("#btn-mota").removeClass("btn-active");
+                $("#btn-chitiet").removeClass("btn-active");
+                $("#chitietxe").css("display", "none");
+                $("#mota").css('display', "none");
+                $("#xacnhan").css("display", "flex");
+
+            });
+
+            $("#back").click(function () {
+                window.location.href = "index.html";
+            });
+
+            $("#buy").click(function(e){
+
+			    e.preventDefault();
+                $.ajax({
+                    url: '@Url.Action("CreateOrder")',
+                    type: 'POST',
+                    data: {
+                        CustomerID: @current_user.ID,
+                        ShipName: "@current_user.Name",
+                        ShipMobile: "@current_user.Phone",
+                        ShipEmail: "@current_user.Email",
+                        ShipAddress: "@current_user.Address",
+                        Quantity: @quantity,
+                        Price: @total_price,
+                        ProductID: @Session["current_id_product"],
+                    },
+                    success: function () {
+                        $("#btn-xacnhan").css('display', "none");
+                        $("#muathanhcong").css('display', "block");
+                        setTimeout(() => {
+                            $("#success-icon").addClass("success");
+                        }, 400);
+                    },
+				    error: function () {
+				    alert("Đặt hàng thất bại! Vui lòng thử lại");
+				    }
+			    });
+            });
+
+        });
+</script>
+
+}
+
+
+
+
+
