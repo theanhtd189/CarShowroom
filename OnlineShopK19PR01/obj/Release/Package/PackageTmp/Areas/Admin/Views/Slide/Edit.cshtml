@@ -1,0 +1,86 @@
+﻿@model Models.Framework.Slide
+@using Models.DAL
+@{
+    ViewBag.Title = "Edit slide";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@section header{}
+
+@using (Html.BeginForm("Update","Slide",FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    <h4>Slide</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.ID)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.DisplayOrder, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <select class="select-type" name="DisplayOrder">
+                @for (int i = 1; i < (int)new SlideDAL().SetDisplayOrder(); i++)
+                {
+                    if (i == Model.DisplayOrder)
+                    {
+                        <option value="@i" selected>@i</option>
+                    }
+                    else
+                    {
+                         <option value="@i">@i</option>
+                    }
+                    
+                }
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Link, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.Link, new { htmlAttributes = new { @class = "form-control" }, value = "@Model.link" })
+            @Html.ValidationMessageFor(model => model.Link, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Image, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @if (Model.Image != null)
+            {
+                @Html.TextBoxFor(model => model.Image, new { @id = "ImagePath", @class = "form-control", value = Model.Image })
+            }
+            else
+            {
+                @Html.TextBoxFor(model => model.Image, new
+                   {
+                       @id = "ImagePath",
+                       @class = "form-control",
+                   });
+            }
+
+            <button type="button" id="selectImage" class="btn btn-primary">Chọn ảnh</button>
+            @Html.ValidationMessageFor(model => model.Image, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextAreaFor(model => model.Description, new { @id = "SelectDocument", @class = "form-control", value = Model.Description })
+            @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    @Html.HiddenFor(model => model.Status)
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Save" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

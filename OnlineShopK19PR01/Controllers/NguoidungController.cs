@@ -10,7 +10,10 @@ namespace OnlineShopK19PR01.Controllers
         // GET: Nguoidung
         public ActionResult Index()
         {
-            return View("User_Profile");
+            if (Session["idnguoidung"] != null)
+                return View("User_Profile");
+            else
+                return RedirectToAction("", "dangnhap");
         }
         [HttpPost]
         public String UpdateInfo()

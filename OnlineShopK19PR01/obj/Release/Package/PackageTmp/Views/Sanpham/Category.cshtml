@@ -1,0 +1,85 @@
+﻿@using OnlineShopK19PR01.Common
+@using Models.DAL
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+    var list = (List<Models.Framework.Product>)ViewBag.product;
+    var list_cat = new ProductCategoryDAL().ListAll();
+    var category_detail = (Models.Framework.ProductCategory)ViewBag.category;
+}
+
+<style>
+    .block-cars:after {
+        background-color: transparent !important;
+    }
+</style>
+<section id="page-category">
+
+    <div class="block-cars">
+        <div class="container">
+            @if (category_detail != null)
+            {
+                <h1 class="title">Danh mục <strong>@category_detail.Name</strong></h1>
+            }
+            else
+            {
+                <h1 class="title">Danh mục <strong>Chưa phân loại</strong></h1>
+            }
+
+
+            @if (list_cat != null && list_cat.Count > 0)
+            {
+        <div class="category">
+            @if (category_detail != null)
+            {
+                foreach (var item in list_cat)
+                {
+
+                    if (item.ID == category_detail.ID)
+                    {
+                        <div class="cate-item item-active"><a href="@Url.Action("category", "sanpham", new { item.ID })">@item.Name</a></div>
+                    }
+                    else
+                    {
+                        <div class="cate-item"><a href="@Url.Action("category", "sanpham", new { item.ID })">@item.Name</a></div>
+                    }
+                }
+                <div class="cate-item"><a href="@Url.Action("category", "sanpham", new { ID = 0 })">Chưa phân loại</a></div>
+
+            }
+            else
+            {
+                foreach (var item in list_cat)
+                {
+                    <div class="cate-item"><a href="@Url.Action("category", "sanpham", new { item.ID })">@item.Name</a></div>
+                }
+                <div class="cate-item item-active"><a href="@Url.Action("category", "sanpham", new { ID = 0 })">Chưa phân loại</a></div>
+
+
+            }
+
+        </div>
+            }
+            <div class="row">
+
+                @if (list != null && list.Count > 0)
+                {
+                    foreach (var item in list)
+                    {
+                        <div class="col col-4">
+                            <a href="@Url.Action("ProductDetail","Sanpham")/@item.ID"><h3>@item.Name</h3></a>
+                            <div class="price">@Format.FormatNumber(item.Price) VND</div>
+                            <a href="@Url.Action("ProductDetail","Sanpham")/@item.ID">
+                                <div class="product-image" style="background-image: url(@item.Image);"></div>
+                            </a>
+
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+    <div class="clr"></div>
+</section>
+
+

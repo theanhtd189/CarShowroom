@@ -23,15 +23,22 @@ public class GiohangController : Controller
     }
     public ActionResult Checkout(long id, int quantity=1)
     {
+        Session["redirect"] = true;
         var dal = new ProductDAL();
         Session["current_id_product"] = id;
         var product = dal.ViewDetail(id);
         var categoryId = product.CategoryID;
         ViewBag.ListRelateProduct = dal.ListRelated(categoryId, 3);
         ViewBag.Quantity = quantity;
-        return View(product);
+        if (Session["idnguoidung"] != null)
+        {
+            return View(product);
+        }
+        else
+            return RedirectToAction("", "dangnhap");
+        
     }
-    public ActionResult AddCart(long id, int quantity = 1)
+/*    public ActionResult AddCart(long id, int quantity = 1)
     {
         var cart = Session["dathang"];
         var listItem = new List<CartItem>();
@@ -70,7 +77,7 @@ public class GiohangController : Controller
         }
         return RedirectToAction("Index", "Cart");
     }
-
+*/
     public String CreateOrder(long CustomerID, string ShipName, string ShipMobile, string ShipEmail, string ShipAddress, int Quantity, int Price, long ProductID)
     {
         var dal = new OrderDAL();
@@ -103,7 +110,7 @@ public class GiohangController : Controller
             return "Lỗi tạo đơn mới";
 
     }
-    public JsonResult DeleteAll()
+/*    public JsonResult DeleteAll()
     {
         Session["dathang"] = null;
         return Json(new
@@ -111,8 +118,8 @@ public class GiohangController : Controller
             status = true
         });
     }
-
-    public JsonResult Delete(long id)
+*/
+/*    public JsonResult Delete(long id)
     {
         var sessionCart = (List<CartItem>)Session["dathang"];
         sessionCart.RemoveAll(x => x.Product.ID == id);
@@ -141,7 +148,7 @@ public class GiohangController : Controller
             status = true
         });
     }
-
+*/
     public ActionResult Success()
     {
         return View();

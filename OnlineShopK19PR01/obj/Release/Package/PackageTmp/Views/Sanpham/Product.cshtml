@@ -1,0 +1,190 @@
+﻿@using Models.DAL
+@using OnlineShopK19PR01.Common
+@{
+    ViewBag.Title = "Sản phẩm";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+    var slides = (List<Models.Framework.Slide>)ViewBag.Slides;
+    var product = (Models.Framework.Product)ViewBag.Product;
+    var listRelateProduct = (List<Models.Framework.Product>)ViewBag.ListRelateProduct;
+    var categoryname = new ProductCategoryDAL().GetNameProductCategory(product.ID);
+}
+<style>
+    .flex-direction-nav {
+        display:none;
+    }
+</style>
+<section id="page-product">
+    <div class="buy">
+        <button class="btn" id="add-cart"><i class="fas fa-cart-plus"></i> Thêm Vào Danh Sách Mua</button>
+        <button class="btn"><a href="@Url.Action("Checkout","Giohang")/@product.ID"><i class="far fa-plus-square"></i> Đặt Ngay</a></button>
+    </div>
+    <div class="info">
+        <button class="btn left btn-active" id="btn-chitiet"><a href="#"><i class="fas fa-calendar-week"></i> Chi Tiết Xe</a></button>
+        <button class="btn left" id="btn-mota"><a href="#"><i class="fas fa-scroll"></i> Mô tả</a></button>
+        <button class="btn left"><a href="#"><i class="far fa-comment-alt"></i> Đánh Giá</a></button>
+    </div>
+    <div class="clr"></div>
+
+    <div class="cat">
+        <h2><a href="#">Sản phẩm</a><span class="space">/</span></h2>
+        @if(!categoryname.Contains("Chưa chọn"))
+            {
+                    <h2><a href="#"> @categoryname</a><span class="space">/</span></h2>
+            }
+        
+        <h2><a href="#">@product.Name</a></h2>
+    </div>
+    <div id="ct" class="container">
+        <article class="description">
+            <div class="module-slider">
+                <div class="flexslider">
+                    <ul class="slides">
+
+                        <li>
+                            <a rel="nofollow" href="#">
+                                <img src="@product.Image" alt="" />
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <h2 class="product-title" id="chitiet">@product.Name</h2>
+
+            <div id="chitietxe">
+                <table align="center" border="1" cellpadding="0" cellspacing="0" style="width:80%;"  width="211">
+                    <caption>
+                        <p>Thông tin cơ bản</p>
+                    </caption>
+                    <tbody>
+                        <tr height="20">
+                            <td height="20"><strong>Tên sản phẩm</strong></td>
+                            <td>@product.Name</td>
+                        </tr>
+                        <tr height="20">
+                            <td height="20" width="121"><strong>Hãng xe</strong></td>
+                            <td width="90">@product.Brand</td>
+                        </tr>
+                        <tr height="20">
+                            <td height="20"><strong>Giá tiền</strong></td>
+                            <td>@Format.FormatNumber(product.Price) VND</td>
+                        </tr>
+                        <tr height="20">
+                            <td height="20"><strong>Màu sắc</strong></td>
+                            <td>@product.Color</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="mota">
+                <div>
+                    <h3>Mô tả</h3>
+                    @if (@product.Description != null)
+                    {
+                        <p>@Html.Raw(Server.HtmlDecode(product.Description))</p>
+                    }
+                    else
+                    {
+                        <p>Chưa có mô tả cho sản phẩm này</p>
+                    }
+                </div>
+
+            </div>
+
+        </article>
+    </div>
+    <div class="clr"></div>
+
+    @if(listRelateProduct!=null && listRelateProduct.Count > 0)
+            {
+
+
+<div class="related">
+                    <h2>Related Product</h2>
+                    <div>
+                        <div class="row">
+                            @if (listRelateProduct.Count == 2)
+                                {
+                                    <style>
+                                        .col.col-4 h3, .col.col-4 p {
+                                            text-align:center;
+                                        }
+                                    </style>
+                                }
+                                   
+                            @foreach (var item in listRelateProduct)
+                            {
+
+                            <div class="col col-4">
+                                
+                                <a href="@Url.Action("ProductDetail", "Sanpham", new { item.ID })">
+                                    <div class="product-image" style="background-image: url(../../@item.Image);"></div>
+                                    <a href="@Url.Action("ProductDetail", "Sanpham", new { item.ID })"><h3>@item.Name</h3></a>
+                                    <p class="price">@Format.FormatNumber(item.Price) VND</p>
+                                </a>
+                            </div>
+                        }
+
+                        </div>
+                    </div>                 
+                </div>
+            }
+    
+
+    <div class="clr"></div>
+    <div class="reserve" id="laithu">
+        <div class="container">
+            <h3>ĐĂNG KÝ LÁI THỬ</h3>
+            <p>Bạn muốn đăng ký trải nghiệm phiên bản này, hãy hoàn thành thông tin bên dưới</p>
+            <form action="" method="post">
+                <label>Họ và Tên*</label>
+                <input name="name" type="text" required>
+                <label>Địa chỉ*</label>
+                <input name="address" type="text" required>
+                <div class="row">
+                    <div class="col col-6">
+                        <label>Số điện thoại*</label>
+                        <input name="phone" type="text" required>
+                    </div>
+                    <div class="col col-6">
+                        <label>Email</label>
+                        <input name="email" type="email">
+                    </div>
+                </div>
+                <button type="submit" name="task" value="reserve">Gửi tin nhắn</button>
+            </form>
+        </div>
+    </div>
+</section>
+<div class="clr"></div>
+<div class="add-cart"><i class="fas fa-check"></i>Thành công</div>
+<script type="text/javascript">$(document).ready(function() {
+		$('.flexslider').flexslider({
+			animation: 'slide'
+		});
+		$(window).trigger('resize');
+
+		$("#add-cart").click(function(){
+			$(".add-cart").addClass("show");
+			setTimeout(()=>{
+				$(".add-cart").removeClass("show");
+			},800);
+		});
+
+		$("#btn-mota").click(function(){
+			$("#btn-mota").addClass("btn-active");
+			$("#btn-chitiet").removeClass("btn-active");
+			$("#chitietxe").css("display","none");
+			$("#mota").css('display',"flex");
+		});
+
+
+		$("#btn-chitiet").click(function(){
+			$("#btn-mota").removeClass("btn-active");
+			$("#btn-chitiet").addClass("btn-active");
+			$("#chitietxe").css("display","block");
+			$("#mota").css('display',"none");
+		});
+	});</script>
+

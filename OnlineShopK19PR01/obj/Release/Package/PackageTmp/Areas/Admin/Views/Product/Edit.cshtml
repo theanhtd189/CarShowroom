@@ -1,0 +1,112 @@
+﻿@model Models.Framework.Product
+@using Models.DAL
+@using OnlineShopK19PR01.Common
+@{
+    ViewBag.Title = "Edit Product";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+    var dal = new ProductCategoryDAL();
+    var listcategory = dal.GetListId();
+
+}
+
+@section header{}
+
+@using (Html.BeginForm("Update", "Product", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <h4>Product</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.TextBoxFor(model => model.ID, new { htmlAttributes = new { @class = "form-control" }, value = @Model.ID, type = "hidden" })
+    </div>
+    <div class="form-group">
+        @Html.TextBoxFor(model => model.MetaTitle, new { htmlAttributes = new { @class = "form-control" }, value = @Model.MetaTitle, type = "hidden" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" }, value = @Model.Name })
+            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Color, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.Color, new { htmlAttributes = new { @class = "form-control" } , value= @Model.Color})
+            @Html.ValidationMessageFor(model => model.Color, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Brand, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.Brand, new { htmlAttributes = new { @class = "form-control" }, value=@Model.Brand })
+            @Html.ValidationMessageFor(model => model.Brand, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Price, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.Price, new { htmlAttributes = new { @class = "form-control" }, value = @Format.FormatNumber(Model.Price) })
+            @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CategoryID, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <select class="select-type" name="CategoryID">
+                <option value="@Model.CategoryID" selected>@dal.GetNameProductCategory(Model.CategoryID)</option>
+                @foreach (var item in listcategory)
+                {
+                    <option value="@item">@dal.GetNameProductCategory(item)</option>
+                }
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Image, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.Image, new { @id = "ImagePath", @class = "form-control" })
+
+            <button type="button" id="selectImage" class="btn btn-primary">Chọn ảnh</button>
+            @Html.ValidationMessageFor(model => model.Image, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Quantity, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.Quantity, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Quantity, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextAreaFor(model => model.Description, new { @id = "SelectDocument", @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.Status, new { htmlAttributes = new { @class = "form-control" }, value = Model.Status, type = "hidden" })
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <button type="submit" value="Create" class="btn btn-default">
+                Thêm mới
+            </button>
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+

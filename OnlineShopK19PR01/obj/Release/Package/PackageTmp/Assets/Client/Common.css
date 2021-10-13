@@ -1,0 +1,49 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@keyframes diff {
+    from {
+        transform: translateX(-50%) translateY(1000px);
+    }
+
+    to {
+        transform: translateX(-50%) translateY(-200px);
+    }
+}
+@keyframes label {
+    from {
+        transform: translateX(-50%) translateY(-350px);
+    }
+
+    to {
+        transform: translateX(-50%) translateY(250px);
+    }
+}
+
+@keyframes out {
+    0% {
+        -webkit-transform: rotateY(0) translate(-50%,-50%);
+        transform: rotateY(0) translate(-50%,-50%);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: rotateY(-180deg) translate(-50%,-50%);
+        transform: rotateY(-180deg) translate(-50%,-50%);
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+@keyframes open {
+    0% {
+        -webkit-transform: rotate(-540deg) scale(0) translate(-50%,-50%);
+        transform: rotate(-540deg) scale(0) translate(-50%,-50%);
+        opacity: 0;
+        display: none;
+    }
+
+    100% {
+        -webkit-transform: rotate(0) scale(1) translate(-50%,-50%);
+        transform: rotate(0) scale(1) translate(-50%,-50%);
+        opacity: 1;
+        display: block;
+    }
+}

@@ -63,6 +63,28 @@ namespace OnlineShopK19PR01.Controllers
             return View("Index");
         }
         [HttpPost]
+        public int LogIn(string UserName, string Password)
+        {
+            var tPassword = Encryptor.GetHash(Password);
+            var dal = new UserDAL();
+            var upstt = dal.Login(UserName,tPassword);
+            if (upstt==1)
+            {
+                var user = dal.GetByName(UserName);
+                    var userSession = new UserLogin();
+                    userSession.UserName = user.UserName;
+                    userSession.UserID = user.ID;
+                    Session.Add("idnguoidung", userSession.UserID);
+                    if (Session["redirect"] != null)
+                    {
+                        var id_product = Session["current_id_product"];
+                        return 1;
+                    }
+                return -1;            
+            }
+            return 0;
+        }
+        [HttpPost]
         public bool SignUp(string input_username, string input_name, string input_password, string input_email)
         {
             var user = new User();
